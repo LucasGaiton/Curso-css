@@ -4,6 +4,8 @@ body{
     color: white;
 }
 .card{
+    margin: auto;
+    margin-top: 35px;
     background-color: coral;
     text-align: center;
     width: 600px;

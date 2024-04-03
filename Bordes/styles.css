@@ -1,0 +1,25 @@
+body{
+    font-size: x-large;
+}
+.caja{
+    width: 150px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+
+    border: black solid 8px;
+    border-top-left-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+input{
+    margin: 5px;
+    padding: 7px 10px;
+    border: none;
+    border-top: 1px solid gray;
+    background-color: whitesmoke;
+}
+
+
