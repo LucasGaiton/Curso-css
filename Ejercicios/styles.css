@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(214, 211, 211);
+    font-family: sans-serif;
+    color: white;
+}
+.card{
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 35px;
+    background: linear-gradient(to top,transparent,rgb(137, 166, 216));
+    text-align: center;
+    width: 600px;
+    border-radius: 10px;
+    padding: 5px 27px;
+    box-shadow: 0px 0px 20px #0006;
+}
+.imagen{
+    margin: auto;
+    height: 27%;
+    width: 50%;
+    background-size: cover;
+    background-position: right 0.5vw center;
+    border-radius: 60%;
+}
+h1{
+    padding-top: 50px;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(57, 63, 100);
+    font-weight: 700;
+    
+}
+h2{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgb(57, 63, 100);
+
+}
+p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgb(57, 63, 100);
+
+}
