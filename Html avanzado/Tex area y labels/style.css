@@ -1,18 +1,21 @@
 body{
     margin: 0;
-    background-color: #000;
+    background-color:#342C36;
+    height: 100vh;
 }
 
 .formulario{
-    background-color: #675667;
+    background-color: #342C36;
     margin: auto;
-    width: 70vw;
+    max-width: 50vw;
     min-width: 500px;
     box-sizing: border-box;
-    height: 50vh;
+    height: auto;
     font-size: 20px;
-    box-shadow: 0px 0px 15px 0px #0002;
+    box-shadow: 0px 0px 56px #0006;
     border-radius: 7px;
+    padding: 30px ;
+
 }
 .form-input{
     margin: 7px 13px;
@@ -21,18 +24,32 @@ body{
 }
 .titulo{
     margin: auto;
-    color: #fff;
+    color: #9553A5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    font-size: 2.3em;
     
     
 }
-input{
+input, textarea{
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     border: none;
-    border-left:#331833 solid 7px ;
-    background-color: #C476C4;
+    border: #333 solid 1px;
+    border-left:#333  solid 2px ;
+    background-color: #4D4350;
     color: #fff;
+    border-radius: 10px;
+}
+textarea{
+    resize: none;
+    min-height: 10vh;
+;
+}
+label{
+    color: #9553A5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3px;
+    font-size: 1.2em  ;
 }
