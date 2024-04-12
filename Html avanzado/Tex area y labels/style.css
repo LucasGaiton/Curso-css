@@ -31,7 +31,7 @@ body{
     
     
 }
-input, textarea{
+input, textarea, select, datalist{
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -41,10 +41,12 @@ input, textarea{
     background-color: #4D4350;
     color: #fff;
     border-radius: 10px;
+    margin-top: 10px;
 }
 textarea{
     resize: none;
     min-height: 10vh;
+    font-family:'myFont', Arial, Helvetica, sans-serif;
 ;
 }
 label{
@@ -52,4 +54,15 @@ label{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 3px;
     font-size: 1.2em  ;
+}
+.terminos{
+    font-size: 0.8em;
+    color: #eee;
+    font-style: oblique;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.checkBox{
+    width: auto;
+    height: 12px;
 }
